@@ -2,10 +2,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Document</title>
 </head>
 <body>
     
+    <div class="todo-list">
+
+        <h2>Todo List</h2>
+        <div class="input-group">
+            <input type="text" id="novaTarefa" placeholder="Nova tarefa">
+            <button id="adicionarTarefa">Adicionar</button>
+        </div>
+        <div class="contador">
+            <p>Total: <span id="totalTarefas">0</span></p>
+            <p>Realizadas: <span id="tarefasRealizadas">0</span></p>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tarefa</th>
+                </tr>
+            </thead>
+            <tbody id="listaTarefas">
+            </tbody>
+        </table>
+    </div>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
