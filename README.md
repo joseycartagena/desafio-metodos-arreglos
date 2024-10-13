@@ -4,5 +4,5 @@ dinámicamente en una página web. Para lograrlo, necesitarás aplicar lo aprend
 Lee todo el documento antes de comenzar el desarrollo individual, para asegurarte de tener
 el máximo de puntaje y enfocar bien los esfuerzos.
 
-#Git Hub Pages
+GitHub Pages
 https://joseycartagena.github.io/
